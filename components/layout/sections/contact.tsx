@@ -70,7 +70,7 @@ export const ContactSection = () => {
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
             Get in touch with us! Whether you have a question, need support, or
-            want to discuss your next investment, we're here to help.
+            want to discuss your next investment, we&apos;re here to help.
           </p>
 
           <div className="flex flex-col gap-4">
