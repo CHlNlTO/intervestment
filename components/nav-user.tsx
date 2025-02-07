@@ -25,8 +25,8 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 import { ToggleTheme } from "./layout/toogle-theme";
+import { ClerkUser } from "@/types/user";
 import { SignOutButton } from "@clerk/nextjs";
-import { User } from "@/types/user";
 
 export function NavUser({ user }: { user: ClerkUser }) {
   const { isMobile } = useSidebar();
