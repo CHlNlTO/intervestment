@@ -14,6 +14,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { AddInvestmentModal } from "./add-investment-modal";
 
 export default function InvestmentDashboard({ user }: { user: any }) {
   const [investmentData, setInvestmentData] = useState<Investment>({
@@ -43,10 +44,16 @@ export default function InvestmentDashboard({ user }: { user: any }) {
 
   return (
     <div className="flex flex-1 flex-col gap-4 p-4">
-      <div className="flex flex-row gap-2">
-        <SidebarTrigger className="-ml-1" />
-        <h1 className="text-xl font-semibold">Welcome, {user?.firstName}</h1>
-      </div>
+      <div className="flex flex-row gap-2"></div>
+      <header className="flex h-8 shrink-0 items-center justify-between gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12 px-4">
+        <div className="flex items-center gap-2">
+          <SidebarTrigger className="-ml-1" />
+          <h1 className="text-xl font-semibold">Welcome, {user?.firstName}</h1>
+        </div>
+        <div className="flex items-center gap-2">
+          <AddInvestmentModal />
+        </div>
+      </header>
       <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
         <div className="grid auto-rows-min gap-4 md:grid-cols-3">
           <Card>
