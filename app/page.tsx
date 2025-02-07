@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/layout/navbar";
 import { BenefitsSection } from "@/components/layout/sections/benefits";
 import { CommunitySection } from "@/components/layout/sections/community";
 import { ContactSection } from "@/components/layout/sections/contact";
@@ -12,27 +13,27 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "Intervestment - Track your investments",
+  description: "Intervestment is a platform to track your manual investments",
   openGraph: {
     type: "website",
     url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    title: "Intervestment - Track your investments",
+    description: "Intervestment is a platform to track your manual investments",
     images: [
       {
         url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "Intervestment - Track your investments",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    title: "Intervestment - Track your investments",
+    description: "Intervestment is a platform to track your manual investments",
     images: [
       "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
     ],
@@ -42,18 +43,21 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <SponsorsSection />
-      <BenefitsSection />
-      <FeaturesSection />
-      <ServicesSection />
-      <TestimonialSection />
-      <TeamSection />
-      <CommunitySection />
-      <PricingSection />
-      <ContactSection />
-      <FAQSection />
-      <FooterSection />
+      <Navbar />
+      <>
+        <HeroSection />
+        <SponsorsSection />
+        <BenefitsSection />
+        <FeaturesSection />
+        <ServicesSection />
+        <TestimonialSection />
+        <TeamSection />
+        <CommunitySection />
+        <PricingSection />
+        <ContactSection />
+        <FAQSection />
+        <FooterSection />
+      </>
     </>
   );
 }

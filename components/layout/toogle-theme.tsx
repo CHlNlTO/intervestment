@@ -1,27 +1,40 @@
 import { useTheme } from "next-themes";
 import { Button } from "../ui/button";
 import { Moon, Sun } from "lucide-react";
+import { cn } from "@/lib/utils";
 
-export const ToggleTheme = () => {
+interface ToggleThemeProps {
+  children?: React.ReactNode;
+  size?: "default" | "xs" | "sm" | "lg" | "icon";
+  iconClassName?: string;
+  buttonClassName?: string;
+}
+
+export const ToggleTheme = ({
+  children,
+  size,
+  iconClassName,
+  buttonClassName,
+}: ToggleThemeProps) => {
   const { theme, setTheme } = useTheme();
   return (
     <Button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      size="sm"
+      size={size ?? "sm"}
       variant="ghost"
-      className="w-full justify-start"
+      className={(cn("w-full justify-start"), buttonClassName)}
     >
       <div className="flex gap-2 dark:hidden">
-        <Moon className="size-5" />
-        <span className="block lg:hidden"> Escuro </span>
+        <Moon className={(cn("size-5"), iconClassName)} />
+        <span className="block lg:hidden"> Dark </span>
       </div>
 
       <div className="dark:flex gap-2 hidden">
-        <Sun className="size-5" />
-        <span className="block lg:hidden">Claro</span>
+        <Sun className={(cn("size-5"), iconClassName)} />
+        <span className="block lg:hidden">Light</span>
       </div>
-
-      <span className="sr-only">Trocar de tema</span>
+      {children}
+      <span className="sr-only">Change Theme</span>
     </Button>
   );
 };
