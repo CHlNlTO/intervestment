@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Accessible Anytime, Anywhere",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Track your investments on any device with our mobile-friendly platform—stay informed wherever you go.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Reliable & Verified Data",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Gain confidence with accurate, up-to-date investment tracking powered by secure and transparent calculations.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Goal-Oriented Insights",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Set and monitor your investment goals effortlessly with intuitive performance tracking and ROI projections.",
   },
   {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
+    icon: "BarChart",
+    title: "Real-Time Analytics",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Make data-driven decisions with live investment updates and detailed financial insights.",
   },
   {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
+    icon: "Bell",
+    title: "Instant Notifications",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Receive timely alerts about earnings, updates, and key financial milestones—never miss an opportunity.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "ShieldCheck",
+    title: "Secure & Transparent",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Your data is protected with industry-leading security measures, ensuring safe and reliable investment tracking.",
   },
 ];
 

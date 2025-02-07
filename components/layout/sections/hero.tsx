@@ -22,7 +22,7 @@ export const HeroSection = () => {
           <div className="max-w-screen-md flex flex-col justify-center items-center text-center text-3xl md:text-6xl font-bold">
             <h1 className="text-wrap">
               Experience your
-              <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+              <span className="text-transparent px-2 bg-gradient-to-r from-[#47b6d2] to-primary bg-clip-text">
                 Investment
               </span>
               growth
@@ -59,8 +59,8 @@ export const HeroSection = () => {
             className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
               theme === "light"
-                ? "/hero-image-light.jpeg"
-                : "/hero-image-dark.jpeg"
+                ? "/hero-image-light.png"
+                : "/hero-image-dark.png"
             }
             alt="dashboard"
           />

@@ -24,145 +24,92 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://i.pravatar.cc/250?img=58",
-      firstName: "Leo",
-      lastName: "Miranda",
-      positions: ["Vue Fronted Developer", "Creator Of This Website"],
+      imageUrl:
+        "https://lh3.googleusercontent.com/fife/ALs6j_Ej-Sh5AsHteQ5aMsvJGbpEvo0DNCWOlj3nFDeY5ssSwO6e8csxHc4tchW4skuMLDaVmYOLaTYoX4x1_t2crDEgeeHjVHK6XqwXsJbIv7isr6xctqcKberpk3CeP74h0txNWNvqdiFKWNvGZvaRRoobM3ckwmhN6yXZjHs_7sbNBimc2RyXFcbfk823YiQOuZ4w34kk0d55FPgUlxsh9Dovxq7dQJVAyZ6W8dDPRzGs7JOwwP3U6ksGEiM8v6ekXhILDdCl_OUYeamd2GRkuHc7ZBHba-3kUEu5m3w1FHmTmBKPC91xgYNcRHC1fffXI5ZO8RJAKSrxv9FMr4rwBcE23KSi2TdfjoujpVeXIjmWPeo5LpMqjE9Z22vnO_qqVQlcLGkODMmnMIFVZHhv94rCkd8CmOY1NScqjhzOdo9-eSEFT6IXyRcwm8yPf3J01FoiNMBJbaApU4tSTaS72nXBK0CYt8Q64UEuv3txvC2DcrO1cEYxgbCxfN30b3qSz0BhbvLAkYZ5ErLxwBoNMTp2yjK0v4sAfUw7ASO_xWuiR8uUBGPjmPYXngJQUPzXlJSaZ8vNw1XiDgErepO85erMxrS_AhMqdbPcJbkxBM7KMp7Qqbx-NVJP75gt34EQ_PDuVPsO4tzdXlyrsUiBOm_PiPGLBowqkpaitkBEtz28cPb5cgLMnindZlKlrwM5VT0Rjegs5zJHGU33BJ3mu_Fr1zfzAOx8rtRMjVJWwyiipr15wIsOWrGWxa4fIklrzbws3Mpw31iVZrlOLvCohW4rBPNBEtlbMBqj3-E2_CCZIvFMbRBekJot5DKb4kC_e_94wF8d-V5pWFM052xjLxXRco3XgRefIxD_qdOGX8Lm8tFg5SkG5tml0jMDlXGe8yVjSRuh6kzEsRolkPmQ__kt88PKR3ZsheKxSUxylHbTsVs5mp77lRzt9PmmFCT4gcfoMCpqnP0MuXUtkFZSPTb8ZTWjVSO5-uOMwMaeZO0u153wwR5bMNvwU04aA_Ji1kUmL-mO5vVithiJPACYmrfmEu965N1aUj04eG_e3fzkuDgxKLKcIMsu1S-BUvvLO2elf09eYRFSvrq6apxVKidbigUs5Yph4pBAaRpKxSv_TolG6zsXdr0fRBuxLVDr4AKT3atim65fZ730FM5xDz59q4dg6VGBtx0bKRJAvZRXZvJqy6QiReh6S1CYJfmDzOBCMeX0FOPg6BtriKjKGsE6YtJBBCqSFZfx8BHJ4_8S4rl4pRfGbvzpErlAaJu4X34RJ1UQvVRDwNNn3Fuutre5laiFJb7ZFuJ8T1RW58CdQUXKz4BjpIwbW7wqr0AY6oQqHrGayiZ5DwsQPF3GQUfsJ14bQV6VMrdZ-X8l8Fskw0FsfrETpCYS4ktBC5LjgzyMnpPwmUay_tqSMTz6UBKh20GZ2X_EvaMMJD0kZttPuw5IBDsXLCM9tRqvDjfkaZK8sd6jBlpkbt-rhZKhXBCEqufFutY9eVV2d7Pr_cHH8xnCx6RuTBem-kNSagyuuBWsB9uwI5Q4WiDz4wqR4zyy4ZEa2s4C1ahfRLVxrj82SexefmnJ-Ku2GcKQCIs7s6AYlumK5Gpely157EQ4sy07rQ2B2W86ZN7GH3GjoBq2yIvbyGnSPNBa=w1920-h945",
+      firstName: "Clark Wayne",
+      lastName: "Abutal",
+      positions: ["Full Stack Developer", "Creator Of Intervestments"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/clark-wayne-abutal-1005001aa",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/CHlNlTO",
         },
         {
           name: "X",
-          url: "https://x.com/leo_mirand4",
+          url: "https://x.com/clrkwayne",
+        },
+      ],
+    },
+    {
+      imageUrl: "https://cdn-icons-png.flaticon.com/512/12222/12222560.png",
+      firstName: "OpenAI",
+      lastName: "ChatGPT",
+      positions: ["AI Overlord", "24/7 Code Therapist"],
+      socialNetworks: [
+        {
+          name: "Website",
+          url: "https://openai.com/chatgpt",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Elizabeth",
-      lastName: "Moore",
-      positions: ["UI/UX Designer"],
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/1c42a8de70b220fc1737f6e95b3c0373637228db-1319x1512.gif?w=1920&q=75",
+      firstName: "Anthropic",
+      lastName: "Claude",
+      positions: ["Ethical AI Sage", "AI That Tries To Be Polite"],
       socialNetworks: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "Website",
+          url: "https://www.anthropic.com/claude",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "David",
-      lastName: "Diaz",
-      positions: ["Machine Learning Engineer", "TensorFlow Tinkerer"],
+        "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+      firstName: "Next.js",
+      lastName: "Framework",
+      positions: ["React’s Fast & Furious Cousin", "SEO Wizard"],
       socialNetworks: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
+          name: "Website",
+          url: "https://nextjs.org/",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Sarah",
-      lastName: "Robinson",
-      positions: ["Cloud Native Developer", " Kubernetes Orchestrator"],
+        "https://static-00.iconduck.com/assets.00/brand-vercel-icon-512x436-8wo8pcih.png",
+      firstName: "Vercel",
+      lastName: "Deployments",
+      positions: ["Serverless Sorcerer", "The ‘It Works On My Machine’ Fixer"],
       socialNetworks: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "Website",
+          url: "https://vercel.com/",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Michael",
-      lastName: "Holland",
-      positions: ["DevOps Engineer", "CI/CD Pipeline Mastermind"],
+        "https://static-00.iconduck.com/assets.00/brand-supabase-icon-462x512-fs395kkc.png",
+      firstName: "Supabase",
+      lastName: "DB",
+      positions: ["PostgreSQL's Cool Younger Sibling", "Firebase Escape Plan"],
       socialNetworks: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Zoe",
-      lastName: "Garcia",
-      positions: ["JavaScript Evangelist", "Deno Champion"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Evan",
-      lastName: "James",
-      positions: ["Backend Developer"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Pam",
-      lastName: "Taylor",
-      positions: ["Fullstack Developer", "UX Researcher"],
-      socialNetworks: [
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "Website",
+          url: "https://supabase.com/",
         },
       ],
     },
   ];
+
   const socialIcon = (socialName: string) => {
     switch (socialName) {
       case "LinkedIn":

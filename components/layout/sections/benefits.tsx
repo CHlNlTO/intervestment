@@ -10,28 +10,28 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "TrendingUp",
+    title: "Effortless Investment Tracking",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Stay on top of your investments with real-time updates and seamless tracking. No more guesswork—just clear, reliable insights.",
   },
   {
-    icon: "LineChart",
-    title: "More Leads",
+    icon: "BarChart",
+    title: "Automated ROI Calculations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Watch your returns grow with our automated monthly ROI calculations. Get accurate earnings reports without lifting a finger.",
   },
   {
-    icon: "Wallet",
-    title: "Higher Conversions",
+    icon: "ShieldCheck",
+    title: "Secure & Transparent",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Your investments are tracked with the highest security standards, ensuring full transparency and peace of mind.",
   },
   {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    icon: "Clock",
+    title: "Stay Ahead with Smart Alerts",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Receive timely notifications about investment updates so you never miss an important financial milestone.",
   },
 ];
 

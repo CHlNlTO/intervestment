@@ -11,26 +11,35 @@ export const FooterSection = () => {
             <Link href="#" className="flex font-bold items-center">
               <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
 
-              <h3 className="text-2xl">Shadcn</h3>
+              <h3 className="text-2xl">Intervestments</h3>
             </Link>
           </div>
 
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contact</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://github.com/CHlNlTO"
+                className="opacity-60 hover:opacity-100"
+              >
                 Github
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://x.com/clrkwayne"
+                className="opacity-60 hover:opacity-100"
+              >
                 Twitter
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://instagram.com/itswaynetoomuch"
+                className="opacity-60 hover:opacity-100"
+              >
                 Instagram
               </Link>
             </div>
@@ -51,7 +60,10 @@ export const FooterSection = () => {
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://algotrimo.vercel.app/"
+                className="opacity-60 hover:opacity-100"
+              >
                 Web
               </Link>
             </div>
@@ -60,19 +72,22 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Help</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://algotrimo.vercel.app/#contact"
+                className="opacity-60 hover:opacity-100"
+              >
                 Contact Us
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#faq" className="opacity-60 hover:opacity-100">
                 FAQ
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#contact" className="opacity-60 hover:opacity-100">
                 Feedback
               </Link>
             </div>
@@ -81,8 +96,11 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Socials</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitch
+              <Link
+                href="https://facebool.com/itswaynetoomuch"
+                className="opacity-60 hover:opacity-100"
+              >
+                Facebook
               </Link>
             </div>
 
@@ -103,13 +121,13 @@ export const FooterSection = () => {
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; 2024 Designed and developed by
+            &copy; 2025 Designed and developed by
             <Link
               target="_blank"
               href="https://github.com/leoMirandaa"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-              Leo Miranda
+              Clark Wayne Abutal
             </Link>
           </h3>
         </section>

@@ -17,25 +17,27 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Real-Time Investment Tracking",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Monitor your investment performance with up-to-the-minute updates and insights.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Automated ROI Calculations",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Get accurate monthly returns calculated automatically—no manual work required.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Instant Notifications & Alerts",
+    description:
+      "Stay informed with real-time alerts for investment updates and earnings.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Secure Data Encryption",
+    description:
+      "Your financial data is protected with industry-standard security measures.",
     pro: 1,
   },
 ];

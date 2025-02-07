@@ -13,32 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "Is web development the only service you offer?",
+    answer:
+      "No, we offer a variety of services, including mobile development, API integrations, e-commerce development, and more. You can learn more about all our services on our Services page.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How do I contact you for a project?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "You can fill out the contact form on the Contact page, or reach us via email at clark.wayne023@gmail.com. We'll get back to you as soon as possible.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "What is your typical project timeline?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "The timeline for a project depends on its complexity and scope. We will provide you with an estimated timeline once we understand your project requirements.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Do you offer maintenance for completed projects?",
+    answer:
+      "Yes, we offer ongoing maintenance services to ensure your website or system stays up-to-date and functions smoothly after launch.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "Can I request a custom feature for my project?",
+    answer:
+      "Absolutely! We work with you to understand your needs and build custom features tailored to your business goals.",
     value: "item-5",
   },
 ];

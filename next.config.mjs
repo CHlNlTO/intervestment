@@ -14,6 +14,22 @@ const nextConfig = {
         protocol: "https",
         hostname: "github.com",
       },
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn-icons-png.flaticon.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www-cdn.anthropic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "static-00.iconduck.com",
+      },
     ],
   },
 };
