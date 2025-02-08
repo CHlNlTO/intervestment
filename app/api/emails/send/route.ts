@@ -14,7 +14,7 @@ export async function POST(req: Request) {
     const { firstName, lastName, email, subject, message } = await req.json();
 
     await transporter.sendMail({
-      from: process.env.GMAIL_USER,
+      from: email,
       to: process.env.GMAIL_USER,
       subject: subject,
       text: `New message from: ${firstName} ${lastName}\n\nMessage: ${message}`, // Plain text fallback
@@ -134,12 +134,15 @@ export async function POST(req: Request) {
       `,
     });
 
-    return NextResponse.json({ firstName, lastName, email, subject, message });
+    return NextResponse.json({
+      success: true,
+      message: "Email sent successfully",
+    });
   } catch (error) {
     console.error("Error sending email:", error);
-    return {
+    return NextResponse.json({
       success: false,
       message: "Failed to send email",
-    };
+    });
   }
 }
