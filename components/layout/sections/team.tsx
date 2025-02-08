@@ -1,6 +1,7 @@
 import GithubIcon from "@/components/icons/github-icon";
 import LinkedInIcon from "@/components/icons/linkedin-icon";
 import XIcon from "@/components/icons/x-icon";
+import WebsiteIcon from "@/components/icons/website-icon";
 import {
   Card,
   CardContent,
@@ -41,6 +42,10 @@ export const TeamSection = () => {
         {
           name: "X",
           url: "https://x.com/clrkwayne",
+        },
+        {
+          name: "Website",
+          url: "https://clarkwayne.vercel.app/",
         },
       ],
     },
@@ -118,6 +123,8 @@ export const TeamSection = () => {
         return <GithubIcon />;
       case "X":
         return <XIcon />;
+      case "Website":
+        return <WebsiteIcon />;
     }
   };
 

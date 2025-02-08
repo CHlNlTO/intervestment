@@ -215,38 +215,13 @@ export default function InvestmentDashboard({ user }: { user: any }) {
           </CardContent>
         </Card>
       </div>
-      {/* <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-        <div className="aspect-video rounded-xl bg-muted/50">
-          <div className="flex flex-col gap-2 p-4">
-            <h2 className="text-lg font-semibold">Total Investments</h2>
-            <p className="text-muted-foreground">
-              ₱{investmentData.total_investment}
-            </p>
-          </div>
-        </div>
-        <div className="aspect-video rounded-xl bg-muted/50">
-          <div className="flex flex-col gap-2 p-4">
-            <h2 className="text-lg font-semibold">Total ROI</h2>
-            <p className="text-muted-foreground">₱{investmentData.total_roi}</p>
-          </div>
-        </div>
-        <div className="aspect-video rounded-xl bg-muted/50">
-          <div className="flex flex-col gap-2 p-4">
-            <h2 className="text-lg font-semibold">ROI Percentage</h2>
-            <p className="text-muted-foreground">
-              {investmentData.roi_percentage}%
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" /> */}
     </div>
   );
 }
 
 const LoadingDashboardWidgetSkeleton = (user: any): JSX.Element => {
   return (
-    <>
+    <div className="flex flex-1 flex-col gap-4 p-4">
       <div className="flex flex-row gap-2"></div>
       <header className="flex h-8 shrink-0 items-center justify-between gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12 px-4">
         <div className="flex items-center gap-2">
@@ -257,6 +232,6 @@ const LoadingDashboardWidgetSkeleton = (user: any): JSX.Element => {
           <AddInvestmentModal />
         </div>
       </header>
-    </>
+    </div>
   );
 };

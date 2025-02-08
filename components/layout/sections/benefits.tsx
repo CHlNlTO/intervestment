@@ -46,9 +46,11 @@ export const BenefitsSection = () => {
             Your Shortcut to Success
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Discover the advantages of seamless investment tracking. Our
+            platform provides real-time updates, automated ROI calculations, and
+            smart alerts to keep you informed and ahead of the curve. Experience
+            secure and transparent management of your investments, ensuring
+            peace of mind and financial success.
           </p>
         </div>
 
