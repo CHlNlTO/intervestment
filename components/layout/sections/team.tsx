@@ -50,7 +50,8 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/12222/12222560.png",
+      imageUrl:
+        "https://static.vecteezy.com/system/resources/previews/021/059/825/large_2x/chatgpt-logo-chat-gpt-icon-on-green-background-free-vector.jpg",
       firstName: "OpenAI",
       lastName: "ChatGPT",
       positions: ["AI Overlord", "24/7 Code Therapist"],
@@ -88,8 +89,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://static-00.iconduck.com/assets.00/brand-vercel-icon-512x436-8wo8pcih.png",
+      imageUrl: "https://logowik.com/content/uploads/images/vercel1868.jpg",
       firstName: "Vercel",
       lastName: "Deployments",
       positions: ["Serverless Sorcerer", "The ‘It Works On My Machine’ Fixer"],
@@ -102,7 +102,7 @@ export const TeamSection = () => {
     },
     {
       imageUrl:
-        "https://static-00.iconduck.com/assets.00/brand-supabase-icon-462x512-fs395kkc.png",
+        "https://getlogo.net/wp-content/uploads/2020/11/supabase-logo-vector.png",
       firstName: "Supabase",
       lastName: "DB",
       positions: ["PostgreSQL's Cool Younger Sibling", "Firebase Escape Plan"],
@@ -155,8 +155,8 @@ export const TeamSection = () => {
                   <Image
                     src={imageUrl}
                     alt=""
-                    width={300}
-                    height={300}
+                    width={1000}
+                    height={1000}
                     className="w-full aspect-square object-cover saturate-0 transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
                   />
                 </div>

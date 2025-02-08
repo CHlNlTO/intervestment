@@ -20,7 +20,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cdn-icons-png.flaticon.com",
+        hostname: "static.vecteezy.com",
       },
       {
         protocol: "https",
@@ -29,6 +29,14 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "static-00.iconduck.com",
+      },
+      {
+        protocol: "https",
+        hostname: "logowik.com",
+      },
+      {
+        protocol: "https",
+        hostname: "getlogo.net",
       },
     ],
   },

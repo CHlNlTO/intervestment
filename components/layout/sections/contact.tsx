@@ -27,6 +27,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
+import { useToast } from "@/hooks/use-toast";
 
 const formSchema = z.object({
   firstName: z.string().min(2).max(255),
@@ -48,14 +49,43 @@ export const ContactSection = () => {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  const { toast } = useToast();
+
+  const handleSubmit = async (values: z.infer<typeof formSchema>) => {
     const { firstName, lastName, email, subject, message } = values;
     console.log(values);
 
     const mailToLink = `mailto:clark.wayne023@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
 
     window.location.href = mailToLink;
-  }
+
+    const response = await fetch("/api/emails/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        firstName,
+        lastName,
+        email,
+        subject,
+        message,
+      }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      console.error("Error:", data.error);
+      toast({
+        title: "Email failed to send",
+      });
+      return;
+    }
+
+    console.log("Email sent successfully");
+    toast({
+      title: "Email sent successfully",
+    });
+  };
 
   return (
     <section id="contact" className="container py-24 sm:py-32">
@@ -120,7 +150,9 @@ export const ContactSection = () => {
           <CardContent>
             <Form {...form}>
               <form
-                onSubmit={form.handleSubmit(onSubmit)}
+                onSubmit={form.handleSubmit(() =>
+                  handleSubmit(form.getValues())
+                )}
                 className="grid w-full gap-4"
               >
                 <div className="flex flex-col md:!flex-row gap-8">

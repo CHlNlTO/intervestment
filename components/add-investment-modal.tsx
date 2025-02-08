@@ -17,6 +17,7 @@ import { CalendarIcon } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 import { Calendar } from "@/components/ui/calendar";
+import { redirect } from "next/navigation";
 
 export function AddInvestmentModal() {
   const [open, setOpen] = useState(false);
@@ -51,6 +52,8 @@ export function AddInvestmentModal() {
 
     console.log("Investment added successfully");
     setOpen(false);
+
+    redirect("/dashboard");
   };
 
   return (
